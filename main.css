@@ -1,0 +1,46 @@
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    animation-name: Emiraka;
+    position: absolute;
+    animation-duration: 5s;
+    animation-delay: 0.5;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes Emiraka {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: 85%;
+        background-color: red;
+        border-radius: 18px;
+    }
+    50% {
+        top: 75%;
+        left: 85%;
+        border-radius: 30px;
+        background-color: yellow;
+    }
+
+    75% {
+        top: 75%;
+        left: 0;
+        background-color: green;
+        border-radius: 50px;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background-color: blue;
+        border-radius: 44px;
+}
+
+
+}
